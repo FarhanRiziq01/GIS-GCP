@@ -16,7 +16,7 @@ export function getAllCoordinates(){
           {
             let node = {
                 id : feature.get('id'),
-                nama : feature.get('nama'),
+                name : feature.get('name'),
                 volume : feature.get('volume'),
                 xy : feature.get('geometry').flatCoordinates,
             }
